@@ -1,8 +1,8 @@
-# Smart Agriculture System Using IoT and Machine Learning
+# Smart Agriculture System Using Machine Learning
 
 ## Project Overview
 
-This project presents an **IoT and Machine Learning-based Smart Agriculture System** aimed at improving crop management through **disease prediction**, **precision irrigation**, and **fertilization**. By analyzing sensor data from low-resolution cameras and environmental sensors, the system predicts potential plant diseases and provides targeted suggestions for treatment.
+This project presents an **Machine Learning-based Smart Agriculture System** aimed at improving crop management through **disease prediction**, **precision irrigation**, and **fertilization**. By analyzing sensor data from low-resolution cameras and environmental sensors, the system predicts potential plant diseases and provides targeted suggestions for treatment.
 
 ## Features
 
@@ -16,7 +16,6 @@ This project presents an **IoT and Machine Learning-based Smart Agriculture Syst
 ## Technologies Used
 
 - **Machine Learning**: Disease prediction model using convolutional neural networks (CNNs) for image classification.
-- **IoT**: Sensor integration for environmental data collection (soil moisture, humidity, temperature).
 - **Streamlit**: Web application framework for user interaction and disease prediction visualizations.
 - **Python**: Backend development for model integration and sensor data analysis.
 - **TensorFlow/Keras**: For building and training the deep learning model.
@@ -39,7 +38,7 @@ This project presents an **IoT and Machine Learning-based Smart Agriculture Syst
    - Ensure the sensors are calibrated and configured to send data to the application.
 
 ## How It Works
-- Data Collection: IoT sensors collect real-time environmental data, while cameras capture images of crops.
+- Data Collection: sensors collect real-time environmental data, while cameras capture images of crops.
 - Disease Prediction: The captured images are passed through the machine learning model for disease detection.
 - Actionable Insights: The system analyzes the data and provides disease predictions and remedies.
 - Precision Irrigation: Based on soil moisture data, the system automatically optimizes the irrigation process.
