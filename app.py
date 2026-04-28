@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the CSV file containing disease names and remedies
-disease_remedies_df = pd.read_csv('/Users/mac/Desktop/disease_9.csv')
+disease_remedies_df = pd.read_csv('disease_9.csv')
 #st.write(disease_remedies_df)
 #uploaded_file = st.file_uploader("Upload your input CSV file", type=["csv"])
 
@@ -13,7 +13,7 @@ disease_remedies_df = pd.read_csv('/Users/mac/Desktop/disease_9.csv')
     #disease_remedies_df = pd.read_csv(uploaded_file)
 # Tensorflow Model Prediction
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("/Users/mac/Downloads/trained_plant_disease_model.keras")
+    model = tf.keras.models.load_model("trained_plant_disease_model.keras")
     image = tf.keras.preprocessing.image.load_img(test_image, target_size=(128, 128))
     input_arr = tf.keras.preprocessing.image.img_to_array(image)
     input_arr = np.array([input_arr])  # Convert single image to batch
@@ -27,7 +27,7 @@ app_mode = st.sidebar.selectbox("Select Page", ["Home", "About", "Disease Recogn
 # Main Page
 if app_mode == "Home":
     st.header("CROP DISEASE RECOGNITION SYSTEM")
-    image_path = "/Users/mac/Downloads/potato-leaves-768x512.jpg.webp"
+    image_path = "potato-leaves-768x512.jpg"
     st.image(image_path, use_column_width=True)
     st.markdown("""
     Welcome to the Crop Disease Recognition System! 🌿🔍
