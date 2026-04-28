@@ -1,8 +1,8 @@
-# Smart Agriculture System Using Machine Learning
+# Crop Disease Detection System Using Machine Learning
 
 ## Project Overview
 
-This project presents an **Machine Learning-based Smart Agriculture System** aimed at improving crop management through **disease prediction**, **precision irrigation**, and **fertilization**. By analyzing sensor data from low-resolution cameras and environmental sensors, the system predicts potential plant diseases and provides targeted suggestions for treatment.
+This project presents an **Machine Learning-based Crop Disease Detection System** aimed at improving crop management through **disease prediction**, **precision irrigation**, and **fertilization**. By analyzing sensor data from low-resolution cameras and environmental sensors, the system predicts potential plant diseases and provides targeted suggestions for treatment.
 
 ## Features
 
